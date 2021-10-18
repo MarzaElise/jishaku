@@ -4,7 +4,7 @@
 jishaku
 ~~~~~~~
 
-A discord.py extension including useful tools for bot development and debugging.
+A diskord extension including useful tools for bot development and debugging.
 
 :copyright: (c) 2021 Devon (Gorialis) R
 :license: MIT, see LICENSE for more details.

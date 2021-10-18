@@ -17,8 +17,8 @@ import time
 import traceback
 from urllib.parse import urlencode
 
-import discord
-from discord.ext import commands
+import diskord
+from diskord.ext import commands
 
 from jishaku.features.baseclass import Feature
 from jishaku.flags import Flags
@@ -114,7 +114,7 @@ class ManagementFeature(Feature):
         """
 
         scopes = ('bot', 'applications.commands')
-        permissions = discord.Permissions()
+        permissions = diskord.Permissions()
 
         for perm in perms:
             if perm not in dict(permissions):

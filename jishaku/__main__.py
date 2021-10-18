@@ -19,7 +19,7 @@ import logging
 import sys
 
 import click
-from discord.ext import commands
+from diskord.ext import commands
 
 LOG_FORMAT: logging.Formatter = logging.Formatter('%(asctime)s:%(levelname)s:%(name)s: %(message)s')
 LOG_STREAM: logging.Handler = logging.StreamHandler(stream=sys.stdout)

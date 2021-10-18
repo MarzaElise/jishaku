@@ -21,8 +21,8 @@ from jishaku.repl.scope import Scope
 CORO_CODE = f"""
 import asyncio
 
-import discord
-from discord.ext import commands
+import diskord
+from diskord.ext import commands
 from importlib import import_module as {import_expression.constants.IMPORTER}
 
 import jishaku
