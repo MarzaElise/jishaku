@@ -29,9 +29,10 @@ a debugging and utility extension for bots made using diskord
 
 jishaku is an extension for bot developers that enables rapid prototyping, experimentation, and debugging of features for bots.
 
-One of jishaku's core philosophies is to be dynamic and easy-to-use. Here's the two step install:
+One of jishaku's core philosophies is to be dynamic and easy-to-use.
+ <!-- Here's the two step install: -->
 
-> 1. Download jishaku on the command line using pip:
+<!-- > 1. Download jishaku on the command line using pip:
 >
 > ```bash
 > pip install -U jishaku
@@ -43,7 +44,7 @@ One of jishaku's core philosophies is to be dynamic and easy-to-use. Here's the 
 > bot.load_extension('jishaku')
 > ```
 >
-> That's it!
+> That's it! -->
 
 You can also import the module to use the command development utilities.
 
@@ -236,14 +237,14 @@ If you'd like to test the latest versions of jishaku, you can do so by downloadi
 > From GitHub:
 >
 > ```bash
-> pip install -U "jishaku @ git+https://github.com/Gorialis/jishaku@master"
+> pip install -U "jishaku @ git+https://github.com/diskord-dev/jishaku@master"
 > ```
 >
-> From GitLab:
+<!-- > From GitLab:
 >
 > ```bash
-> pip install -U "jishaku @ git+https://gitlab.com/Gorialis/jishaku@master"
-> ```
+> pip install -U "jishaku @ git+https://gitlab.com/diskord-dev/jishaku@master"
+> ``` -->
 
 Please note that the new 2020 dependency resolver now no longer discounts git package sources from reinstall prevention,
 which means that if you are installing the jishaku development version multiple times within the same version target you may run into pip just discarding the update.
@@ -253,14 +254,14 @@ If you run into such a problem, you can force jishaku to be reinstalled like thi
 > From GitHub:
 >
 > ```bash
-> pip install -U --force-reinstall "jishaku @ git+https://github.com/Gorialis/jishaku@master"
+> pip install -U --force-reinstall "jishaku @ git+https://github.com/diskord-dev/jishaku@master"
 > ```
 >
-> From GitLab:
+<!-- > From GitLab:
 >
 > ```bash
 > pip install -U --force-reinstall "jishaku @ git+https://gitlab.com/Gorialis/jishaku@master"
-> ```
+> ``` -->
 
 You **must** have installed jishaku with one of the commands above before doing this else you will probably end up with a broken installation.
 
