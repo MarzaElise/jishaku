@@ -17,7 +17,7 @@ jishaku
 </h1>
 <p align="center">
 <sup>
-a debugging and utility extension for diskord bots
+a debugging and utility extension for bots made using diskord
 </sup>
 <br>
 <sup>
