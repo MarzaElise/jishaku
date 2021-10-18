@@ -13,7 +13,7 @@ import asyncio
 
 import pytest
 import utils
-from discord.ext import commands
+from diskord.ext import commands
 
 
 @pytest.fixture(

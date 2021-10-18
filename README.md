@@ -17,7 +17,7 @@ jishaku
 </h1>
 <p align="center">
 <sup>
-a debugging and utility extension for discord.py bots
+a debugging and utility extension for bots made using diskord
 </sup>
 <br>
 <sup>
@@ -27,42 +27,33 @@ a debugging and utility extension for discord.py bots
 
 ***
 
-> <h3><b>⚠️ Warning</b></h3>
->
-> As of the 27th of August 2021, [discord.py has ceased development](https://gist.github.com/Rapptz/4a2f62751b9600a31a0d3c78100287f1).
->
-> Jishaku will continue to be maintained targeting both the PyPI version and the [latest git revision](https://github.com/Rapptz/discord.py/tree/45d498c1b76deaf3b394d17ccf56112fa691d160) as of the archive, until at least the date of the slash command mandate (currently speculated to be around April 2022).
->
-> As all trusted contributors have rejected continuing the library, I do not have enough trust in any forks to target those instead. The existing forks are handled by inexperienced developers, and I figure this will continue to be the case in the future, as all of the developers experienced enough to carry the torch do not want to maintain the library for similar reasons to Danny himself.
->
-> However, if you personally decide that you wish to use a fork, I will allow Jishaku to honor your decision by removing the `discord.py` package requirement. **This means, from now on, installing jishaku will not automatically handle installing `discord.py`, you must choose a version to use yourself**. Any fork that you use must be compatible with the original (in that it supplies the `discord` module and its namespaces).
->
-> When April 2022 comes, I will make a decision at the time as to whether I want to continue maintaining Jishaku. I still enjoy making and maintaining bots, but implementing Jishaku under the philosophies I have defined so far will likely be impossible under the new slash commands, and I don't really want to compromise my work for the sake of appeasing a company that doesn't care for its developers.
->
-> I hope you've found Jishaku useful, and hopefully it will get to live on in one way or another.
-
-
 jishaku is an extension for bot developers that enables rapid prototyping, experimentation, and debugging of features for bots.
 
-One of jishaku's core philosophies is to be dynamic and easy-to-use. Here's the two step install:
+One of jishaku's core philosophies is to be dynamic and easy-to-use.
+ <!-- Here's the two step install: -->
 
-> 1. Download jishaku on the command line using pip:
+<!-- > 1. Download jishaku on the command line using pip:
+>
 > ```bash
 > pip install -U jishaku
 > ```
+>
 > 2. Load the extension in your bot code before it runs:
+>
 > ```python
 > bot.load_extension('jishaku')
 > ```
-> That's it!
+>
+> That's it! -->
 
 You can also import the module to use the command development utilities.
 
 ## Index
 
-* [Command reference](#command-reference)
-* [Installing development versions](#installing-development-versions)
-* [Acknowledgements](#acknowledgements)
+- [Index](#index)
+- [Command reference](#command-reference)
+- [Installing development versions](#installing-development-versions)
+- [Acknowledgements](#acknowledgements)
 
 ## Command reference
 
@@ -244,13 +235,16 @@ You can also import the module to use the command development utilities.
 If you'd like to test the latest versions of jishaku, you can do so by downloading from the git hosts instead of from PyPI.
 
 > From GitHub:
+>
 > ```bash
-> pip install -U "jishaku @ git+https://github.com/Gorialis/jishaku@master"
+> pip install -U "jishaku @ git+https://github.com/diskord-dev/jishaku@master"
 > ```
-> From GitLab:
+>
+<!-- > From GitLab:
+>
 > ```bash
-> pip install -U "jishaku @ git+https://gitlab.com/Gorialis/jishaku@master"
-> ```
+> pip install -U "jishaku @ git+https://gitlab.com/diskord-dev/jishaku@master"
+> ``` -->
 
 Please note that the new 2020 dependency resolver now no longer discounts git package sources from reinstall prevention,
 which means that if you are installing the jishaku development version multiple times within the same version target you may run into pip just discarding the update.
@@ -258,16 +252,19 @@ which means that if you are installing the jishaku development version multiple 
 If you run into such a problem, you can force jishaku to be reinstalled like this:
 
 > From GitHub:
+>
 > ```bash
-> pip install -U --force-reinstall "jishaku @ git+https://github.com/Gorialis/jishaku@master"
+> pip install -U --force-reinstall "jishaku @ git+https://github.com/diskord-dev/jishaku@master"
 > ```
-> From GitLab:
+>
+<!-- > From GitLab:
+>
 > ```bash
 > pip install -U --force-reinstall "jishaku @ git+https://gitlab.com/Gorialis/jishaku@master"
-> ```
+> ``` -->
 
 You **must** have installed jishaku with one of the commands above before doing this else you will probably end up with a broken installation.
 
 ## Acknowledgements
 
-The documentation and this README uses icons from the <a href="https://github.com/google/material-design-icons">Material Design Icon</a> library, which is licensed under the <a href="https://www.apache.org/licenses/LICENSE-2.0.html">Apache License Version 2.0</a>.
+The documentation and this README uses icons from the [Material Design Icon](https://github.com/google/material-design-icons) library, which is licensed under the [Apache License Version 2.0](https://www.apache.org/licenses/LICENSE-2.0.html).

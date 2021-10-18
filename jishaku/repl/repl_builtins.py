@@ -12,8 +12,8 @@ Builtin functions and variables within Jishaku REPL contexts.
 """
 
 import aiohttp
-import discord
-from discord.ext import commands
+import diskord
+from diskord.ext import commands
 
 
 async def http_get_bytes(*args, **kwargs) -> bytes:
@@ -84,8 +84,8 @@ def get_var_dict_from_ctx(ctx: commands.Context, prefix: str = '_'):
         'bot': ctx.bot,
         'channel': ctx.channel,
         'ctx': ctx,
-        'find': discord.utils.find,
-        'get': discord.utils.get,
+        'find': diskord.utils.find,
+        'get': diskord.utils.get,
         'guild': ctx.guild,
         'http_get_bytes': http_get_bytes,
         'http_get_json': http_get_json,
