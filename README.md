@@ -1,11 +1,10 @@
-[![Python versions](https://img.shields.io/pypi/pyversions/jishaku.svg)](https://pypi.python.org/pypi/jishaku)
-[![License](https://img.shields.io/pypi/l/jishaku.svg)](https://github.com/Gorialis/jishaku/blob/master/LICENSE)
-[![Status](https://img.shields.io/pypi/status/jishaku.svg)](https://pypi.python.org/pypi/jishaku)
-[![Circle CI](https://img.shields.io/circleci/project/github/Gorialis/jishaku/master.svg?label=CircleCI)](https://circleci.com/gh/Gorialis/jishaku)
-[![AppVeyor CI](https://img.shields.io/appveyor/ci/Gorialis/jishaku.svg?label=AppVeyorCI)](https://ci.appveyor.com/project/Gorialis/jishaku)
-[![Issues](https://img.shields.io/github/issues/Gorialis/jishaku.svg?colorB=3333ff)](https://github.com/Gorialis/jishaku/issues)
-[![Commit activity](https://img.shields.io/github/commit-activity/w/Gorialis/jishaku.svg)](https://github.com/Gorialis/jishaku/commits)
-
+[![License](https://img.shields.io/pypi/l/jishaku.svg)](https://github.com/diskord-dev/jishaku/blob/master/LICENSE)
+[![Issues](https://img.shields.io/github/issues/diskord-dev/jishaku.svg?colorB=3333ff)](https://github.com/diskord-dev/jishaku/issues)
+[![Commit activity](https://img.shields.io/github/commit-activity/w/diskord-dev/jishaku.svg)](https://github.com/diskord-dev/jishaku/commits)
+<!-- [![Python versions](https://img.shields.io/pypi/pyversions/jishaku.svg)](https://pypi.python.org/pypi/jishaku) -->
+<!-- [![Status](https://img.shields.io/pypi/status/jishaku.svg)](https://pypi.python.org/pypi/jishaku) -->
+<!-- [![Circle CI](https://img.shields.io/circleci/project/github/diskord-dev/jishaku/master.svg?label=CircleCI)](https://circleci.com/gh/Gorialis/jishaku)
+[![AppVeyor CI](https://img.shields.io/appveyor/ci/Gorialis/jishaku.svg?label=AppVeyorCI)](https://ci.appveyor.com/project/Gorialis/jishaku) -->
 ***
 
 <h1 align="center">
